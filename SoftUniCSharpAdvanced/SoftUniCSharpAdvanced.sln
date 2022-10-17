@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorsAndComparators", "9.01. Library\IteratorsAndComparators.csproj", "{22FD078C-1CE4-477C-A53F-E8D6BDD0579A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Iterators and comparators", "9. Iterators and comparators", "{47C193D9-3CFE-40B7-9E56-3541327B1E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22FD078C-1CE4-477C-A53F-E8D6BDD0579A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FD078C-1CE4-477C-A53F-E8D6BDD0579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FD078C-1CE4-477C-A53F-E8D6BDD0579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FD078C-1CE4-477C-A53F-E8D6BDD0579A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22FD078C-1CE4-477C-A53F-E8D6BDD0579A} = {47C193D9-3CFE-40B7-9E56-3541327B1E4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {255EA84C-FB23-434B-B50D-9F06998CA493}
+	EndGlobalSection
+EndGlobal
