@@ -25,7 +25,7 @@
         }
 
         public ChessColor Color { get; set; }
-        
+
         public int MatrixRowIndex { get; set; }
 
         public int MatrixColIndex { get; set; }
@@ -54,7 +54,6 @@
     {
         private const int BoardSize = 8;
         private const int NumberOfPawnsAllowed = 2;
-        //private char[,] boardMatrix;
         private List<Pawn> pawns;
 
         public ChessBoard()
@@ -74,7 +73,7 @@
                 while (result == string.Empty)
                 {
                     var currentPawn = direction == 1 ? blackPawn : whitePawn;
-                    var enemyPawn = currentPawn.Color == ChessColor.White ? blackPawn : whitePawn; 
+                    var enemyPawn = currentPawn.Color == ChessColor.White ? blackPawn : whitePawn;
                     var diagonals = GetDiagonals(currentPawn);
                     var isEnemyInRange = IsEnemyInRange(diagonals, enemyPawn);
                     if (isEnemyInRange)
@@ -135,8 +134,8 @@
             var diagonals = new List<Tuple<int, int>>();
             var rowIndex = pawn.MatrixRowIndex + pawn.DirectionIndex;
 
-            var rightDiagonal = pawn.MatrixColIndex++;
-            var leftDiagonal = pawn.MatrixColIndex--;
+            var rightDiagonal = pawn.MatrixColIndex + 1;
+            var leftDiagonal = pawn.MatrixColIndex - 1;
             if (rightDiagonal < BoardSize)
             {
                 diagonals.Add(new Tuple<int, int>(rowIndex, rightDiagonal));
@@ -170,12 +169,8 @@
                         var pawn = new Pawn(i, j, color);
                         pawns.Add(pawn);
                     }
-
-                    //board[i, j] = currentCellSymbol;
                 }
             }
-
-            //return board;
         }
 
         private bool IsCellEmpty(char symbol)
