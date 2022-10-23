@@ -1,7 +1,6 @@
 ﻿namespace IteratorsAndComparators
 {
     using System.Collections.Generic;
-    using System.Linq;
 
     public class Book
     {
@@ -9,11 +8,11 @@
         {
             Title = title;
             Year = year;
-            Authors = authors.ToList();
+            Authors = authors;
         }
        
         public string Title { get; set; }
         public int Year { get; set; }
-        public List<string> Authors { get; set; }
+        public IReadOnlyList<string> Authors { get; set; }
     }
 }
