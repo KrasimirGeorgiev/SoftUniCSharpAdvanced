@@ -8,11 +8,13 @@
         {
             Title = title;
             Year = year;
-            Authors = authors;
+            Authors = new List<string>(authors);
         }
-       
+
         public string Title { get; set; }
+
         public int Year { get; set; }
-        public IReadOnlyList<string> Authors { get; set; }
+
+        public List<string> Authors { get; set; }
     }
 }

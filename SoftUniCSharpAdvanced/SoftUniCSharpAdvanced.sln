@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exams", "Exams", "{FB2BC8E9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23.10.2021", "23.10.2021", "{BAC8F12C-8507-4629-B2E5-9D324C3DC1F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PawnWars", "PawnWars\PawnWars.csproj", "{414D95C1-9CA3-4A2B-A1FF-0BD683951A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawnWars", "PawnWars\PawnWars.csproj", "{414D95C1-9CA3-4A2B-A1FF-0BD683951A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorsAndComparators", "IteratorsAndComparators\IteratorsAndComparators.csproj", "{18D97529-BE27-43BA-9106-EE4880E8734A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{414D95C1-9CA3-4A2B-A1FF-0BD683951A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414D95C1-9CA3-4A2B-A1FF-0BD683951A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414D95C1-9CA3-4A2B-A1FF-0BD683951A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D97529-BE27-43BA-9106-EE4880E8734A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D97529-BE27-43BA-9106-EE4880E8734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D97529-BE27-43BA-9106-EE4880E8734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D97529-BE27-43BA-9106-EE4880E8734A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
